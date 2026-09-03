@@ -51,6 +51,8 @@ npm start
 2. Make your change with clear, signed-off commits.
 3. Ensure the build passes.
 4. Open a pull request describing the change and its motivation.
+5. Optionally add yourself to [CONTRIBUTORS.md](CONTRIBUTORS.md) in the same
+   pull request.
 
 ## Reporting issues
 
