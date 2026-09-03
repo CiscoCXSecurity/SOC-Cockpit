@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Cisco Systems, Inc.
+// SPDX-License-Identifier: Apache-2.0
+
 import type { AppSnapshot, RecordKind, RosterLabel } from './types';
 
 async function request<T>(input: string, init?: RequestInit): Promise<T> {

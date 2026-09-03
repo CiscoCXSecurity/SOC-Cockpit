@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// SPDX-FileCopyrightText: 2026 Cisco Systems, Inc.
+// SPDX-License-Identifier: Apache-2.0
 'use strict';
 
 // Generates a monthly "Working Days" roster workbook styled like the reference template.

@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Cisco Systems, Inc.
+// SPDX-License-Identifier: Apache-2.0
+
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import ReactMarkdown from 'react-markdown';

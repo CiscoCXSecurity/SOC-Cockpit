@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Cisco Systems, Inc.
+// SPDX-License-Identifier: Apache-2.0
+
 import type { LucideIcon } from 'lucide-react';
 
 export type Health = 'healthy' | 'watch' | 'risk';

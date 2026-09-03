@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Cisco Systems, Inc.
+// SPDX-License-Identifier: Apache-2.0
+
 import type { AppSnapshot } from './types';
 
 type Health = 'healthy' | 'watch' | 'risk';
