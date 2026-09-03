@@ -1,10 +1,9 @@
 # SOC Cockpit
 
 [![Author](https://img.shields.io/badge/Author-Kunal_Hatode-blue)](https://github.com/kue-cisco)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/OWNER/REPO)](https://github.com/OWNER/REPO/commits/main)
-[![GitHub License](https://img.shields.io/github/license/OWNER/REPO)](https://github.com/OWNER/REPO/blob/main/LICENSE)
-[![GitHub Forks](https://img.shields.io/github/forks/OWNER/REPO?style=social)](https://github.com/OWNER/REPO/network/members)
-[![GitHub Stars](https://img.shields.io/github/stars/OWNER/REPO?style=social)](https://github.com/OWNER/REPO/stargazers)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/kue-cisco/SOC-Cockpit)](https://github.com/kue_cisco/SOC-Cockpit/commits/main)
+[![GitHub License](https://img.shields.io/github/license/kue_cisco/SOC-Cockpit)](https://github.com/kue_cisco/SOC-Cockpit/blob/main/LICENSE)
+
 
 SOC Cockpit is a web-based operational command console for SOC (Security Operations Center) managers. It is designed around dense, shared operations
 workflows rather than a single-user desktop shell.
