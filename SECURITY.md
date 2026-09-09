@@ -1,38 +1,63 @@
-# Security Policy
+# Security Policies and Procedures
 
-## Reporting a Vulnerability
+This document outlines security procedures and general policies for the
+SOC Cockpit project.
 
-Please report security vulnerabilities responsibly. **Do not** open a public
-GitHub issue for security problems.
+- [Disclosing a security issue](#disclosing-a-security-issue)
+- [Vulnerability management](#vulnerability-management)
+- [Suggesting changes](#suggesting-changes)
+- [Known advisories](#known-advisories)
 
-- For Cisco products and open-source projects, report to the Cisco Product
-  Security Incident Response Team (PSIRT): https://www.cisco.com/go/psirt
-- Alternatively, use GitHub's private vulnerability reporting on this
-  repository (Security tab → "Report a vulnerability").
+## Disclosing a security issue
 
-Please include:
+The SOC Cockpit maintainers take all security issues in the project seriously.
+Thank you for improving the security of SOC Cockpit. We appreciate your
+dedication to responsible disclosure and will make every effort to acknowledge
+your contributions.
 
-- A description of the vulnerability and its impact.
-- Steps to reproduce or a proof of concept.
-- Affected version, commit, or configuration.
+SOC Cockpit leverages GitHub's private vulnerability reporting.
 
-We will acknowledge your report and work with you on remediation and
-coordinated disclosure.
+To learn more about this feature and how to submit a vulnerability report,
+review [GitHub's documentation on private reporting](https://docs.github.com/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability).
 
-## Supported Versions
+Here are some helpful details to include in your report:
 
-Security fixes are applied to the latest released version on the default
-branch. Older versions are not guaranteed to receive patches.
+- a detailed description of the issue
+- the steps required to reproduce the issue
+- versions of the project that may be affected by the issue
+- if known, any mitigations for the issue
 
-## Handling Secrets and Data
+A maintainer will acknowledge the report within three (3) business days, and
+will send a more detailed response within an additional three (3) business days
+indicating the next steps in handling your report.
 
-- Never commit real credentials. Use `.env` (git-ignored) and copy from
-  `.env.example`.
-- The application stores operational data in a local SQLite database under
-  `data/` and uploaded files under `uploads/`; both are git-ignored and must
-  not be committed.
+If you've been unable to successfully draft a vulnerability report via GitHub
+or have not received a response during the alloted response window, please
+reach out via the [Cisco Open security contact email](mailto:oss-security@cisco.com).
 
-## Known Advisories
+After the initial reply to your report, the maintainers will endeavor to keep
+you informed of the progress towards a fix and full announcement, and may ask
+for additional information or guidance.
+
+## Vulnerability management
+
+When the maintainers receive a disclosure report, they will assign it to a
+primary handler.
+
+This person will coordinate the fix and release process, which involves the
+following steps:
+
+- confirming the issue
+- determining affected versions of the project
+- auditing code to find any potential similar problems
+- preparing fixes for all releases under maintenance
+
+## Suggesting changes
+
+If you have suggestions on how this process could be improved please submit an
+issue or pull request.
+
+## Known advisories
 
 The following advisory is reported by `npm audit` and has been assessed as not
 exploitable in this project. It is tracked here rather than suppressed.

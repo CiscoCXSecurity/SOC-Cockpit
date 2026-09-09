@@ -14,6 +14,3 @@ ownership.
 Contributions are recognised here in addition to the git history. If you have
 had a pull request merged and would like to be listed, add yourself in the same
 pull request or open a follow-up one.
-
-- Josh Halley
-- Tim Wadhwa-Brown

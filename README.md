@@ -139,7 +139,8 @@ OpenAI-compatible gateways, and self-hosted servers such as Ollama or vLLM.
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Contributions require a DCO sign-off.
-Please also review the [Code of Conduct](CODE_OF_CONDUCT.md).
+Please also review the [Code of Conduct](CODE_OF_CONDUCT.md). For local setup,
+build instructions, and coding conventions, see [DEVELOPMENT.md](DEVELOPMENT.md).
 
 ## Security
 
