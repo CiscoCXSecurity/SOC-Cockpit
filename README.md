@@ -1,8 +1,10 @@
 # SOC Cockpit
 
-[![Author](https://img.shields.io/badge/Author-Kunal_Hatode-blue)](https://github.com/kue-cisco)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/kue-cisco/SOC-Cockpit)](https://github.com/kue_cisco/SOC-Cockpit/commits/main)
+[![Author](https://img.shields.io/badge/Author-Kunal_Hatode-blue)](https://github.com/kue_cisco)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/kue_cisco/SOC-Cockpit)](https://github.com/kue_cisco/SOC-Cockpit/commits/main)
 [![GitHub License](https://img.shields.io/github/license/kue_cisco/SOC-Cockpit)](https://github.com/kue_cisco/SOC-Cockpit/blob/main/LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-fbab2c.svg)](CODE_OF_CONDUCT.md)
+[![Maintainer](https://img.shields.io/badge/Maintainer-Cisco-00bceb.svg)](https://opensource.cisco.com)
 
 
 SOC Cockpit is a web-based operational command console for SOC (Security Operations Center) managers. It is designed around dense, shared operations
@@ -141,6 +143,7 @@ OpenAI-compatible gateways, and self-hosted servers such as Ollama or vLLM.
 See [CONTRIBUTING.md](CONTRIBUTING.md). Contributions require a DCO sign-off.
 Please also review the [Code of Conduct](CODE_OF_CONDUCT.md). For local setup,
 build instructions, and coding conventions, see [DEVELOPMENT.md](DEVELOPMENT.md).
+Project maintainers are listed in [MAINTAINERS.md](MAINTAINERS.md).
 
 ## Security
 
