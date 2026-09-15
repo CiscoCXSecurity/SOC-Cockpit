@@ -1,8 +1,8 @@
 # SOC Cockpit
 
 [![Author](https://img.shields.io/badge/Author-Kunal_Hatode-blue)](https://github.com/ke0xes)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/ke0xes/SOC-Cockpit)](https://github.com/ke0xes/SOC-Cockpit/commits/main)
-[![GitHub License](https://img.shields.io/github/license/ke0xes/SOC-Cockpit)](https://github.com/ke0xes/SOC-Cockpit/blob/main/LICENSE)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/cisco-open/SOC-Cockpit)](https://github.com/cisco-open/SOC-Cockpit/commits/main)
+[![GitHub License](https://img.shields.io/github/license/cisco-open/SOC-Cockpit)](https://github.com/cisco-open/SOC-Cockpit/blob/main/LICENSE)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-fbab2c.svg)](CODE_OF_CONDUCT.md)
 [![Maintainer](https://img.shields.io/badge/Maintainer-Cisco-00bceb.svg)](https://opensource.cisco.com)
 
