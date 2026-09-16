@@ -84,7 +84,8 @@ readiness scoring levers.
 
 ![Settings](docs/images/11-settings.png)
 
-**Why it was built.** Most SOCs have mature tooling for detection and response
+#### **Why it was built** 
+Most SOCs have mature tooling for detection and response
 — a SIEM, an EDR, a SOAR, a ticketing system. Far fewer have anything for the
 management layer that sits above them: who is covering the night shift next
 Tuesday, what the team committed to in this morning's stand-up, which
@@ -95,7 +96,8 @@ reporting cycle. It works until the person holding it is on leave, hands over a
 shift, or leaves the team. SOC Cockpit exists to give that layer a shared,
 durable home.
 
-**What it solves.** The core problem is fragmentation: the operational record
+#### **What it solves** 
+The core problem is fragmentation: the operational record
 of a SOC is scattered across tools that were never meant to hold it, so nothing
 is authoritative and everything is re-keyed. Stand-ups are held verbally and
 lost by the afternoon, leaving no record of what was agreed or whether it was
@@ -107,7 +109,8 @@ store where roster, tasks, objectives, issues, KPIs, contacts and notes are
 recorded once, retain their history, and stay visible to the whole team rather
 than to one person.
 
-**How SOC managers benefit.** Shift rosters are planned into the future, so
+#### **How SOC managers benefit** 
+Shift rosters are planned into the future, so
 coverage gaps surface while there is still time to fix them. Daily stand-up and
 stand-down tasks are captured against the Eisenhower Decision Matrix — Do,
 Delegate, Delay, Discard — with a lead, duration and status on every item, and
@@ -119,7 +122,8 @@ month end, which turns reporting into an export rather than a rebuild. And
 because stand-ups can be captured in a spreadsheet and imported later, the
 process survives the days when the app is unavailable.
 
-**Where the AI helps.** The value of an assistant in a SOC depends entirely on
+#### **Where the AI helps** 
+The value of an assistant in a SOC depends entirely on
 whether you can trust what it tells you, so Cockpit's AI is deliberately
 constrained: Keo answers strictly from the live cockpit record — roster
 coverage, open issues, objectives, KPIs, stand-up tasks and notes — rather than
