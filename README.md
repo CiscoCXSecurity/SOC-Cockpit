@@ -1,8 +1,11 @@
-will # SOC Cockpit
+# SOC Cockpit
 
 [![Author](https://img.shields.io/badge/Author-Kunal_Hatode-blue)](https://github.com/ke0xes)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/cisco-open/SOC-Cockpit)](https://github.com/cisco-open/SOC-Cockpit/commits/main)
 [![GitHub License](https://img.shields.io/github/license/cisco-open/SOC-Cockpit)](https://github.com/cisco-open/SOC-Cockpit/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/cisco-open/SOC-Cockpit?logo=github)](https://github.com/cisco-open/SOC-Cockpit/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/cisco-open/SOC-Cockpit?logo=github)](https://github.com/cisco-open/SOC-Cockpit/network/members)
+[![Visitors](https://hits.sh/github.com/cisco-open/SOC-Cockpit.svg?label=visitors&color=00bceb)](https://hits.sh/github.com/cisco-open/SOC-Cockpit/)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-fbab2c.svg)](CODE_OF_CONDUCT.md)
 [![Maintainer](https://img.shields.io/badge/Maintainer-Cisco-00bceb.svg)](https://opensource.cisco.com)
 
@@ -13,8 +16,7 @@ workflows rather than a single-user desktop shell.
 ## Screenshots
 
 > The screenshots below use a fictional **"Meridian Global SOC"** dataset to
-> illustrate a busy, real-world operation. All names, metrics and events are
-> invented for demonstration.
+> illustrate a busy, real-world operation. All names, metrics and events are ficticious.
 
 ### Command dashboard
 A one-page operational picture: SOC readiness, SLA/KPI health, live risks and
