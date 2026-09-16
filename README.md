@@ -1,4 +1,4 @@
-# SOC Cockpit
+will # SOC Cockpit
 
 [![Author](https://img.shields.io/badge/Author-Kunal_Hatode-blue)](https://github.com/ke0xes)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/cisco-open/SOC-Cockpit)](https://github.com/cisco-open/SOC-Cockpit/commits/main)
@@ -9,6 +9,78 @@
 
 SOC Cockpit is a web-based operational command console for SOC (Security Operations Center) managers. It is designed around dense, shared operations
 workflows rather than a single-user desktop shell.
+
+## Screenshots
+
+> The screenshots below use a fictional **"Meridian Global SOC"** dataset to
+> illustrate a busy, real-world operation. All names, metrics and events are
+> invented for demonstration.
+
+### Command dashboard
+A one-page operational picture: SOC readiness, SLA/KPI health, live risks and
+decisions, sub-team and 24/7 shift coverage, and leave/workload.
+
+![Command dashboard](docs/images/01-command-dashboard.png)
+
+### Directory
+The team and contact directory, grouped by channel — analysts, leads, vendors
+and key stakeholders in one place.
+
+![Directory](docs/images/02-directory.png)
+
+### Workforce rotation planner
+Future-dated shift roster across teams, so coverage gaps surface while there is
+still time to fix them.
+
+![Workforce rotation planner](docs/images/03-workforce-roster.png)
+
+### Daily standups — Eisenhower matrix
+Stand-up and stand-down tasks captured against Do / Delegate / Delay / Discard,
+each with a lead, duration, status and optional link to an objective.
+
+![Daily standups](docs/images/04-standups.png)
+
+### KPI & SLA service register
+KPIs and SLAs tracked continuously against target with trend and health, so
+reporting becomes an export rather than a rebuild.
+
+![KPI and SLA register](docs/images/05-service-kpis.png)
+
+### Issue register
+Operational issues with status, owner, due date and progress, colour-coded by
+health so the risks stand out.
+
+![Issue register](docs/images/06-issues.png)
+
+### Objectives
+Objectives tracked with scope, owner, assignee, due date, progress and health —
+and linked to the day-to-day tasks that move them forward.
+
+![Objectives](docs/images/07-objectives.png)
+
+### Projects
+Longer-running projects with owner, phase, due date and progress at a glance.
+
+![Projects](docs/images/08-projects.png)
+
+### Process inventory
+The SOC's processes with owner, cadence and a maturity score, so gaps in
+operational rigour are visible.
+
+![Process inventory](docs/images/09-process.png)
+
+### Executive update
+An automatically assembled management brief (bottom line, wins, concerns,
+decisions) generated from the live cockpit data — shown here using the built-in
+local fallback that works with no LLM configured.
+
+![Executive update](docs/images/10-executive-update.png)
+
+### Settings
+Server and LLM status, world clocks, display preferences, and tunable SOC
+readiness scoring levers.
+
+![Settings](docs/images/11-settings.png)
 
 **Why it was built.** Most SOCs have mature tooling for detection and response
 — a SIEM, an EDR, a SOAR, a ticketing system. Far fewer have anything for the
