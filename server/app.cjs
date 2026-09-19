@@ -122,7 +122,25 @@ const workbookUpload = multer({
 });
 
 app.use(helmet({
-  contentSecurityPolicy: false,
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      baseUri: ["'self'"],
+      objectSrc: ["'none'"],
+      frameAncestors: ["'none'"],
+      formAction: ["'self'"],
+      scriptSrc: ["'self'"],
+      styleSrc: ["'self'"],
+      imgSrc: ["'self'", "data:", "blob:"],
+      fontSrc: ["'self'"],
+      connectSrc: ["'self'"],
+      workerSrc: ["'self'", "blob:"],
+      manifestSrc: ["'self'"],
+      mediaSrc: ["'self'"],
+      frameSrc: ["'none'"],
+      upgradeInsecureRequests: [],
+    },
+  },
   crossOriginEmbedderPolicy: false,
 }));
 app.use(express.json());
