@@ -1,5 +1,5 @@
 # Maintainers
 
-- [Kunal Hatode](https://github.com/kue_cisco)
-- [Josh Halley](https://github.com/johalley_cisco)
-- [Tim Wadhwa-Brown](https://github.com/timb-machine)
+- [Kunal Hatode](https://github.com/ke0xes)
+- [Josh Halley](https://github.com/joshhalley)
+- [Tim Brown](https://github.com/timb-machine)
